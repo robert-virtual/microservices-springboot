@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost;database=ordersdb;trustServerCertificate=true
+    username: rober
+    password: superhardpass12
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8082

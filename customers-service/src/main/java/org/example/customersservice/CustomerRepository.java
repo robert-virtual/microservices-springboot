@@ -1,2 +1,6 @@
-package org.example.customersservice;public class CustomerRepository {
+package org.example.customersservice;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CustomerRepository extends JpaRepository<Customer,Long> {
 }

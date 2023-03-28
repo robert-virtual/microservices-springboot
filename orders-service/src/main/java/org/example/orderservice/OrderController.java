@@ -9,13 +9,13 @@ import java.util.List;
 @RequestMapping("order")
 @RequiredArgsConstructor
 public class OrderController{
-    private final OrderRepository orderRepository;
+    private final OrderService orderService;
     @GetMapping("all")
     public List<Order> all(){
-        return orderRepository.findAll();
+        return orderService.findAll();
     }
     @PostMapping("create")
     public Order create(@RequestBody Order order){
-       return orderRepository.save(order);
+       return orderService.save(order);
     }
 }

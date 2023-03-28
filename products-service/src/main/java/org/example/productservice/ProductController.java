@@ -1,4 +1,4 @@
-package org.example;
+package org.example.productservice;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
