@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost;database=productsdb;trustServerCertificate=true
+    username: rober
+    password: superhardpass12
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
