@@ -15,7 +15,7 @@ public class OrderController{
         return orderService.findAll();
     }
     @PostMapping("create")
-    public Order create(@RequestBody Order order){
+    public Order create(@RequestBody Order order) throws Exception {
        return orderService.save(order);
     }
 }

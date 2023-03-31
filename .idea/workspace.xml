@@ -4,43 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd8cba34-a5c1-484e-af81-eecec6efbd2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customers-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customers-service/src/main/java/org/example/customersservice/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customers-service/src/main/java/org/example/customersservice/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customers-service/src/main/java/org/example/customersservice/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customers-service/src/main/java/org/example/customersservice/CustomersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customers-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customers-service/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/org/example/inventoryservice/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/org/example/inventoryservice/InventoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/org/example/inventoryservice/InventoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/org/example/inventoryservice/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrdersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-service/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products-service/src/main/java/org/example/productservice/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products-service/src/main/java/org/example/productservice/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products-service/src/main/java/org/example/productservice/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products-service/src/main/java/org/example/productservice/ProductsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products-service/src/main/resources/banner.txt" afterDir="false" />
+    <list default="true" id="cd8cba34-a5c1-484e-af81-eecec6efbd2d" name="Changes" comment="basic">
+      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/example/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/example/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/WebClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customers-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers-service/src/main/java/org/example/customersservice/CustomersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customers-service/src/main/java/org/example/customersservice/CustomersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customers-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/org/example/inventoryservice/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/org/example/inventoryservice/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/org/example/inventoryservice/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/org/example/inventoryservice/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/org/example/inventoryservice/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/org/example/inventoryservice/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orders-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrdersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/orders-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/products-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products-service/src/main/java/org/example/productservice/ProductsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/products-service/src/main/java/org/example/productservice/ProductsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/products-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,6 +90,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "533efbb47fda9f735839ae123f5d0238",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -104,6 +102,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rober\OneDrive\Documentos\springboot\java17\microservices-shop\microservices\inventory-service\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.orderservice" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -113,7 +114,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.InventoryService">
-    <configuration name="CustomersService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomersService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="customers-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.customersservice.CustomersService" />
       <extension name="coverage">
@@ -126,7 +127,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="inventory-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.inventoryservice.InventoryService" />
       <extension name="coverage">
@@ -139,7 +147,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdersService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="OrdersService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="orders-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.orderservice.OrdersService" />
       <extension name="coverage">
@@ -152,7 +160,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductsService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="products-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.productservice.ProductsService" />
       <extension name="coverage">
@@ -165,12 +173,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.CustomersService" />
+      <item itemvalue="Spring Boot.InventoryService" />
+      <item itemvalue="Spring Boot.OrdersService" />
+      <item itemvalue="Spring Boot.ProductsService" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrdersService" />
         <item itemvalue="Spring Boot.InventoryService" />
         <item itemvalue="Spring Boot.ProductsService" />
         <item itemvalue="Spring Boot.CustomersService" />
-        <item itemvalue="Spring Boot.OrdersService" />
       </list>
     </recent_temporary>
   </component>
@@ -183,11 +198,29 @@
       <option name="presentableId" value="Default" />
       <updated>1680024880074</updated>
       <workItem from="1680024881271" duration="696000" />
-      <workItem from="1680025856866" duration="12353000" />
+      <workItem from="1680025856866" duration="14156000" />
+      <workItem from="1680198569791" duration="14000" />
+      <workItem from="1680198637103" duration="33000" />
+      <workItem from="1680198729156" duration="12956000" />
+      <workItem from="1680273446326" duration="2897000" />
+      <workItem from="1680284923045" duration="2830000" />
+      <workItem from="1680291699521" duration="6646000" />
     </task>
+    <task id="LOCAL-00001" summary="basic">
+      <created>1680041817156</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680041817157</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic" />
   </component>
 </project>

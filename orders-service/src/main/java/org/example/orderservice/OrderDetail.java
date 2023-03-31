@@ -13,8 +13,8 @@ public class OrderDetail {
 
     @Column(name = "order_id")
     private long orderId;
-    private long productId;
-    private int amount;
+    private String skuCode;
+    private int quantity;
     private int price;
 
 }
