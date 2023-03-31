@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping
+@RequestMapping("customers")
 @RequiredArgsConstructor
 public class CustomerController {
     private final CustomerRepository customerRepository;
-    @PostMapping
+    @PostMapping("create")
     public Customer create(@RequestBody Customer customer){
         return customerRepository.save(customer);
     }

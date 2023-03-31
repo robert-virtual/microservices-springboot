@@ -1,0 +1,38 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+spring:
+  application:
+    name: apiGateway
+  cloud:
+    gateway:
+      routes:
+        - id: products
+          uri: lb://products
+          predicates:
+            - Path=/products/**
+        - id: orders
+          uri: lb://orders
+          predicates:
+            - Path=/orders/**
+        - id: inventory
+          uri: lb://inventory
+          predicates:
+            - Path=/inventory/**
+        - id: customers
+          uri: lb://customers
+          predicates:
+            - Path=/customers/**
+
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        cloud:
+          gateway:
+            - trace
+            - route:
+                RouteDefinitionLocator: info
+

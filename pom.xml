@@ -20,6 +20,7 @@
         <module>customers-service</module>
         <module>inventory-service</module>
         <module>eureka-server</module>
+        <module>apigateway</module>
     </modules>
 
     <properties>
