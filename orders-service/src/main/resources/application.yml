@@ -15,3 +15,28 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+management:
+  endpoint:
+    circuit-breaker-events:
+      enabled: true
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+resilience4j:
+  circuit-breaker:
+    instances:
+      inventory:
+        - register-health-indicator: true
+        - event-consumer-buffer-size: 10
+        - sliding-window-type: count_based
+        - sliding-window-size: 5 # after 5 failed request change state
+        - failure-rate-threshold: 50 # when 50% of request fail change state
+        - wait-duration-in-open-state: 5s # how much time it will wait in ope state
+        - permitted-number-of-calls-in-half-open-state: 3
+        - automatic-transition-from-open-to-half-open-enabled: true
+
+
+

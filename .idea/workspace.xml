@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd8cba34-a5c1-484e-af81-eecec6efbd2d" name="Changes" comment="eureka server and client configuration">
-      <change afterPath="$PROJECT_DIR$/apigateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigateway/src/main/java/org/example/apigateway/ApiGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="cd8cba34-a5c1-484e-af81-eecec6efbd2d" name="Changes" comment="api gateway">
+      <change afterPath="$PROJECT_DIR$/apigateway/src/main/java/org/example/apigateway/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customers-service/src/main/java/org/example/customersservice/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customers-service/src/main/java/org/example/customersservice/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orders-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/orders-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,29 +45,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "liberica-11",
-    "last_opened_file_path": "C:/Users/rober/OneDrive/Documentos/springboot/java17/microservices-shop/microservices/inventory-service/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "533efbb47fda9f735839ae123f5d0238",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;liberica-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rober/OneDrive/Documentos/springboot/java17/microservices-shop/microservices/inventory-service/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;51f6152f2e864d473eeea1bb02ff424f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.inventoryservice" />
@@ -165,10 +165,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CustomersService" />
         <item itemvalue="Spring Boot.OrdersService" />
         <item itemvalue="Spring Boot.InventoryService" />
         <item itemvalue="Spring Boot.ProductsService" />
+        <item itemvalue="Spring Boot.CustomersService" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +187,9 @@
       <workItem from="1680198729156" duration="12956000" />
       <workItem from="1680273446326" duration="2897000" />
       <workItem from="1680284923045" duration="2830000" />
-      <workItem from="1680291699521" duration="11030000" />
+      <workItem from="1680291699521" duration="11401000" />
+      <workItem from="1680530539540" duration="13507000" />
+      <workItem from="1680551009696" duration="6991000" />
     </task>
     <task id="LOCAL-00001" summary="basic">
       <created>1680041817156</created>
@@ -203,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680299913859</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="api gateway">
+      <created>1680304582660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680304582660</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +221,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic" />
     <MESSAGE value="eureka server and client configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="eureka server and client configuration" />
+    <MESSAGE value="api gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="api gateway" />
   </component>
 </project>
