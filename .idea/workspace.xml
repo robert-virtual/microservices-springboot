@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd8cba34-a5c1-484e-af81-eecec6efbd2d" name="Changes" comment="circuit breaker">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/orders-service/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="cd8cba34-a5c1-484e-af81-eecec6efbd2d" name="Changes" comment="readme">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +184,7 @@
       <workItem from="1680291699521" duration="11401000" />
       <workItem from="1680530539540" duration="13507000" />
       <workItem from="1680551009696" duration="10172000" />
-      <workItem from="1680619475497" duration="2734000" />
+      <workItem from="1680619475497" duration="3393000" />
     </task>
     <task id="LOCAL-00001" summary="basic">
       <created>1680041817156</created>
@@ -217,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680559995860</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="readme">
+      <created>1680622276521</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680622276521</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +232,7 @@
     <MESSAGE value="eureka server and client configuration" />
     <MESSAGE value="api gateway" />
     <MESSAGE value="circuit breaker" />
-    <option name="LAST_COMMIT_MESSAGE" value="circuit breaker" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
 </project>
