@@ -26,6 +26,11 @@ management:
       exposure:
         include: '*'
 resilience4j:
+  time-limiter:
+    instances:
+      inventory:
+        timeout-duration: 3s
+
   circuit-breaker:
     instances:
       inventory:
@@ -37,6 +42,12 @@ resilience4j:
         - wait-duration-in-open-state: 5s # how much time it will wait in ope state
         - permitted-number-of-calls-in-half-open-state: 3
         - automatic-transition-from-open-to-half-open-enabled: true
+  retry:
+    instances:
+      inventory:
+        max-attempts: 3
+        wait-duration: 5s
+
 
 
 

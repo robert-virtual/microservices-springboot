@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd8cba34-a5c1-484e-af81-eecec6efbd2d" name="Changes" comment="api gateway">
-      <change afterPath="$PROJECT_DIR$/apigateway/src/main/java/org/example/apigateway/SecurityConfig.java" afterDir="false" />
+    <list default="true" id="cd8cba34-a5c1-484e-af81-eecec6efbd2d" name="Changes" comment="circuit breaker">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orders-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orders-service/src/main/java/org/example/orderservice/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orders-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/orders-service/src/main/resources/application.yml" afterDir="false" />
     </list>
@@ -88,7 +85,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGateway">
+  <component name="RunManager" selected="Spring Boot.OrdersService">
     <configuration name="ApiGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="apigateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.apigateway.ApiGateway" />
@@ -189,7 +186,8 @@
       <workItem from="1680284923045" duration="2830000" />
       <workItem from="1680291699521" duration="11401000" />
       <workItem from="1680530539540" duration="13507000" />
-      <workItem from="1680551009696" duration="6991000" />
+      <workItem from="1680551009696" duration="10172000" />
+      <workItem from="1680619475497" duration="2734000" />
     </task>
     <task id="LOCAL-00001" summary="basic">
       <created>1680041817156</created>
@@ -212,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680304582660</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="circuit breaker">
+      <created>1680559995860</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680559995860</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +227,7 @@
     <MESSAGE value="basic" />
     <MESSAGE value="eureka server and client configuration" />
     <MESSAGE value="api gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="api gateway" />
+    <MESSAGE value="circuit breaker" />
+    <option name="LAST_COMMIT_MESSAGE" value="circuit breaker" />
   </component>
 </project>
